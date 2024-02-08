@@ -81,6 +81,15 @@
             }
 
             console.log(`computer ${computerScore} - player ${playerScore}- Ties${tie}`)
+
+            if(computerScore > playerScore){
+                console.log("Computer wins you lose!")
+            }else if( computerScore < playerScore){
+                console.log("YOU WIN!")
+            }else if(computerScore == playerScore){
+                console.log("It's a TIE!")
+            }
+
         }
 
 
